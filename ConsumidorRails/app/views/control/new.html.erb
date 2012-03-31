@@ -1,0 +1,18 @@
+<h1>Control#new</h1>
+<p>Voy a mandar 3 y 8</p>
+<% respuesta = @client.request :web, :sumar, body: {"arg0"=> 3, "arg1" => 8}
+%>
+Hola!! <%= @client.wsdl.soap_actions %>
+<br />
+<br />
+<br />ere
+<%
+   if respuesta.success?
+    r = respuesta.to_array(:sumar_response).first
+   end
+%>
+<% if r %>
+<br />El resultado es <%= r[:return] %>
+<% end %>
+
+
