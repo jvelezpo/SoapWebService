@@ -1,0 +1,12 @@
+<h1>Ingreso</h1>
+
+<%= form_tag("/user/new", :method => "post") do %>
+    <%= label_tag(:cedula, "Cedula:") %>
+    <%= text_field_tag(:cedula) %>
+
+    <%= label_tag(:password, "Password:") %>
+    <%= password_field_tag(:password) %>
+
+    <%= submit_tag("Ingresar") %>
+<% end %>
+
