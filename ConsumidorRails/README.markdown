@@ -1,14 +1,14 @@
 #Config
 
 ### nokogiri requirements
-`sudo apt-get install libxslt-dev libxml2-dev`
-`sudo gem install nokogiri`
+    `sudo apt-get install libxslt-dev libxml2-dev`
+    `sudo gem install nokogiri`
 
 ###Bundle
-`bundle install`
+    `bundle install`
 
 ###db
-`rake db:migrate`
+    `rake db:migrate`
 
 ###run
-`rails s`
+    `rails s`
