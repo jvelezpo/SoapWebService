@@ -10,5 +10,6 @@
 ###db
     `rake db:migrate`
 
-###run
+
+#run
     `rails s`

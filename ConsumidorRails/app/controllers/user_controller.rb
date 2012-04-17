@@ -11,6 +11,14 @@ class UserController < ApplicationController
       r = respuesta.to_array(:ingresar_response).first
       if r
         @respuesta = r[:return]
+        entro = @respuesta[0]
+        @mensaje = @respuesta[1]
+        if entro
+          @token = @respuesta[2]
+        else
+          flash[:error] = @mensaje
+          redirect_to root_path
+        end
       end
     end
   end
