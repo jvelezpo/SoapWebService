@@ -15,11 +15,4 @@ class UserController < ApplicationController
     end
   end
 
-  private
-
-  def soap_service
-    @client = Savon::Client.new do
-      wsdl.document = "http://localhost:8080/WebService/CalculatorService?wsdl"
-    end
-  end
 end

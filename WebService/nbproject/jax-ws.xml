@@ -4,6 +4,9 @@
     <service name="Calculator">
       <implementation-class>co.edu.eafit.Calculator</implementation-class>
     </service>
+    <service name="login">
+      <implementation-class>rsj.login</implementation-class>
+    </service>
   </services>
   <clients/>
 </jax-ws>
