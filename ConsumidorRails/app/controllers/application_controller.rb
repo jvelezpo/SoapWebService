@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   def soap_service
     @client = Savon::Client.new do
-      wsdl.document = "http://localhost:8080/WebService/login?wsdl"
+      wsdl.document = "http://localhost:8080/WebApplication1/login?wsdl"
     end
   end
 
