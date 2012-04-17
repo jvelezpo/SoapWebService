@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services>
-    <service name="Calculator">
-      <implementation-class>co.edu.eafit.Calculator</implementation-class>
-    </service>
     <service name="login">
       <implementation-class>rsj.login</implementation-class>
+    </service>
+    <service name="Calculator">
+      <implementation-class>co.edu.eafit.Calculator</implementation-class>
     </service>
   </services>
   <clients/>
