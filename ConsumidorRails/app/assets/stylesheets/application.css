@@ -119,22 +119,16 @@ nav ul li a:hover {
 
 }
 
-<<<<<<< HEAD
+
 
 /* Footer */
 
 #footer {
     border-top: 1px solid #CCC;
     text-align: center;
+    padding-top: 30px;
 }
 
-=======
-#footer{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-}
 
 #footer .desarrollo{
     float: left;
@@ -146,7 +140,7 @@ nav ul li a:hover {
     color: #d3d3d3;
     float: right;
 }
->>>>>>> 67a61c4c80633483d3c49bcc61b29e6ee269c38e
+
 #footer img{
     width: 100px;
 }
