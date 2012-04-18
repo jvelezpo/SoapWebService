@@ -17,16 +17,16 @@ respecto a los canales tradicionales.
 
 Proyecto realizado por:
 
-[Juan Sebastian Velez Posada](http://github.com/jvelezpo)
-[Rubén Espinosa Roldán](http://github.com/rderoldan1)
-[James Benitez Turízo](http://github.com/jbenite4)
+* [Juan Sebastian Velez Posada](http://github.com/jvelezpo)
+* [Rubén Espinosa Roldán](http://github.com/rderoldan1)
+* [James Benitez Turízo](http://github.com/jbenite4)
 
 
 Tecnologías Utilizadas
 
-  1. Java
-  2. Glassfish
-  3. DB2
-  4. Ruby & Ruby on Rails
-  5. Git & GitHub
-  6. Assembla
+* Java
+* Glassfish
+* DB2
+* Ruby & Ruby on Rails
+* Git & GitHub
+* Assembla
