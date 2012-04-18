@@ -11,3 +11,60 @@
  *= require_self
  *= require_tree .
 */
+
+body{
+    background-color: white;
+    color: #333;
+    top: 0;
+    margin: 0;
+
+    }
+
+#header{
+    background: #FAFAFA;
+    background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+    background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+    border-bottom: 1px solid #CACACA;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.4),0 0 10px rgba(0,0,0,0.1);
+    min-height: 70px;
+    top: 0;
+    margin-top: -17px;
+
+}
+
+
+.nav{
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav .logo {
+    width: 20%;
+    float: left;
+    height: 100%;
+
+}
+
+.nav .bar{
+    width: 40%;
+    float: right;
+
+}
+
+
+#content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.4),0 0 10px rgba(0,0,0,0.1);
+    min-height: 500px;
+    padding: 30px;
+    text-align: justify;
+
+
+}
+
