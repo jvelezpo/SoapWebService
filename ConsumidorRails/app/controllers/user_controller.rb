@@ -16,7 +16,7 @@ class UserController < ApplicationController
         if entro
           @token = @respuesta[2]
         else
-          flash[:error] = @mensaje
+          flash[:error] = @mensaje.capitalize
           redirect_to root_path
         end
       end
