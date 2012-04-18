@@ -17,9 +17,9 @@ respecto a los canales tradicionales.
 
 Proyecto realizado por:
 
-[Juan Sebastian Velez Posada]('github.com/jvelezpo')
-[Rubén Espinosa Roldán]('github.com/rderoldan1')
-[James Rodriguez Turízo]('github.com/jbenite4')
+[Juan Sebastian Velez Posada](github.com/jvelezpo)
+[Rubén Espinosa Roldán](github.com/rderoldan1)
+[James Rodriguez Turízo](github.com/jbenite4)
 
 
 Tecnologías Utilizadas
