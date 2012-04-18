@@ -124,7 +124,6 @@ nav ul li a:hover {
 
 
 #footer{
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -133,12 +132,14 @@ nav ul li a:hover {
 }
 
 #footer .desarrollo{
+    margin-left: 10%;
     float: left;
     color: #dcdcdc;
 
 }
 
 #footer .aliados  {
+    margin-right: 10%;
     color: #d3d3d3;
     float: right;
 }
