@@ -49,9 +49,18 @@ body{
 }
 
 .nav .bar{
-    width: 40%;
+    width: 10%;
     float: right;
-
+    background: #F1F1F1;
+    background: -moz-linear-gradient(#F1F1F1,#E0E0E0);
+    background: -webkit-linear-gradient(#F1F1F1,#E0E0E0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1',endColorstr='#e0e0e0')";
+    border: 1px solid #DDD;
+    padding: 5px;
+    padding-left: 14px;
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #fafafa,inset 0 1px 0 #fafafa;
 }
 
 
@@ -66,5 +75,9 @@ body{
     text-align: justify;
 
 
+}
+
+#footer img{
+    width: 100px;
 }
 

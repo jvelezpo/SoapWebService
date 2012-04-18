@@ -1,7 +1,7 @@
 SoapApp::Application.routes.draw do
   get "pages/home"
 
-  get "pages/about"
+  match "/about", :to => "pages#about"
 
   get "user/index"
   post "user/new"
