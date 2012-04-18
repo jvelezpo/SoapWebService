@@ -77,6 +77,23 @@ body{
 
 }
 
+#footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#footer .desarrollo{
+    float: left;
+    color: #dcdcdc;
+
+}
+
+#footer .aliados  {
+    color: #d3d3d3;
+    float: right;
+}
 #footer img{
     width: 100px;
 }
